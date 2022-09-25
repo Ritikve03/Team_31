@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mens {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 80%;
+            margin: auto;
+
+        }
+        #imgMens {
+            height: 300px;
+
+        }
+        #shrug {
+            width: 80px;
+            height: 100px;
+
+        }
+        #mens1 {
+            width: 80%;
+
+        }
+        #mens2 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        h2 {
+            color: rgb(34, 34, 34);
+        }
+        h2~p {
+            color: rgb(151, 151, 151);
+            font-size: 25px;
+        }
+        #price {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: -50px;
+        }
+        #price>p {
+            font-size: 34px;
+        }
+        #price>p:nth-child(2) {
+            color: rgb(102, 102, 102);
+            text-decoration: line-through;
+        }
+        #price>p:nth-child(1) {
+            font-weight: bold;
+        }
+        #price>p:nth-child(3) {
+            color: green;
+        }
+        #heading {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="mens">
+        <div id="mens1">
+            <div id="mens2"><img id="imgMens"
+                    src="https://images-eu.ssl-images-amazon.com/images/I/81dymX87zlL._AC._SR360,460.jpg"
+                    alt=""></div>
+            <div id="heading">
+                <h2>Pause</h2>
+                <p>Men Cotton Long Sleeves Shrug</p>
+            </div>
+            <div id="price">
+                <p>₹359</p>
+                <p>₹1,499</p>
+                <p>-76%</p>
+            </div>
+        </div>
+        <div id="mens1">
+            <div id="mens2"><img id="imgMens"
+                    src="https://images-eu.ssl-images-amazon.com/images/I/71+iBuJs9pL._AC._SR360,460.jpg"
+                    alt=""></div>
+            <div id="heading">
+                <h2>JUBINATION</h2>
+                <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            </div>
+            <div id="price">
+                <p>₹799 </p>
+                <p>₹1,499 </p>
+                <p>-47%</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
